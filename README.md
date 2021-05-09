@@ -63,6 +63,7 @@ We need to find another way to read this file. Let's try accesing it with web br
 
 <img width="1440" alt="Screenshot 2021-05-09 at 23 34 39" src="https://user-images.githubusercontent.com/73172789/117587613-2521b280-b11f-11eb-889d-63e5515c77f1.png">
 
+## Whats the second ingredient Rick needs?
 Two more ingredients to find. Reading clue.txt file we found out that we can look around the file system to find other two ingredients. So let's try command `ls -la /` to see what is in root folder:
 
 <img width="1440" alt="Screenshot 2021-05-09 at 23 38 47" src="https://user-images.githubusercontent.com/73172789/117587760-b7c25180-b11f-11eb-8155-9d5f46f03c09.png">
@@ -80,6 +81,7 @@ but we can try to use `less /home/rick/'second ingredients'` command:
 
 <img width="1440" alt="Screenshot 2021-05-09 at 23 45 53" src="https://user-images.githubusercontent.com/73172789/117587930-b7768600-b120-11eb-8a20-c518513751ec.png">
 
+## Whats the final ingredient Rick needs?
 Now we have two out of three ingredients. Let's find out third one. When I was solving this question I assumed that third ingredient must be in root folder. Also I 
 assumed that I don't have privileges for reading `/root` folder. But when I realized that I can use `sudo` with `sudo -l`:
 
