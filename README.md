@@ -97,4 +97,5 @@ And we got the third ingredient!
 
 That's it we solve this CTF. You can find this CTF by TryHackMe on link: https://tryhackme.com/room/picklerick 
 
-If you like this writeup please consider supporting me on link in supporting section on the right side of your screen. Thanks in advance.
+If you like this writeup please consider supporting me on link in supporting section on the right side of your screen or by clicking on the donation button at the 
+top of this text. Thanks in advance.
